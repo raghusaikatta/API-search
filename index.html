@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: rgb(229, 236, 230);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1  class="text-center">Enter your Id and get user details</h1>
+
+        
+        <form>
+            <div class="container">
+                <input type="text" id="input1" placeholder="Enter the user Id">
+                <button id="btn1" class="btn btn-success">Search</button>
+                <br>
+            </div>
+        </form>
+        <div id="error-box" class="d-flex p-2" style="color: red;"></div>
+    </div>
+    <br>
+    <hr>
+    <!-- <div class="container" id="main"></div> -->
+    <table class="table" id="data-table" style="font-size: 25px; color: rgb(1, 2, 10);">
+        <tr>
+            <th style="font-size: 25px;">
+                Here are the title of your ID:
+            </th>
+        </tr>
+        <tr>
+            <td>id:</td>
+            <td id="table-data" style="color: green;" ></td>
+        </tr>
+        <tr>
+            <td>Username:</td>
+            <td id="table-data1" style="color: green;"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td id="table-data2" style="color: green;"></td>
+        </tr>
+        <tr>
+            <td>phone:</td>
+            <td id="table-data3" style="color: green;"></td>
+        </tr>
+        <tr>
+            <td>website:</td>
+            <td id="table-data4" style="color: green;"></td>
+        </tr>
+        
+
+    </table>
+    <script src="main.js"></script>
+</body>
+
+</html>
